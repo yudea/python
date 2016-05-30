@@ -68,7 +68,7 @@ for c, dim in enumerate(Dimension):
 #求めた曲線
 	linex=np.linspace(0,1,101)
 	liney=f(linex)
-	label="E(RMS)=%.2f" % error(train_dataset, f)
+	label="pred"
 	subplot.plot(linex, liney, color="blue", label=label)
 	subplot.legend()
 
